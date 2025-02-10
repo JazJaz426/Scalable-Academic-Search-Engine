@@ -13,7 +13,7 @@ A MapReduce-based distributed search engine designed for efficiently discovering
 - Socket Hang-Ups – Resolved by implementing batch processing to reduce coordination overhead.
 - Serialization Errors – Special character filtering ensures clean data handling.
 - Load Balancing – Investigating hashing improvements for better task distribution across nodes.
-- 
+
 # How to Use
 Run Crawler: `npm run test test/crawlv3.test.js`
 Download Text: `npm run test test/downloadText.test.js`
